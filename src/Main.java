@@ -13,7 +13,7 @@ public class Main {
         int maxIndex;
 
         // Sorts array using Selection Sort.
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 0; i < array.length - 1; i++) {
             // Resets the first index value as maximum.
             max = array[0];
 
